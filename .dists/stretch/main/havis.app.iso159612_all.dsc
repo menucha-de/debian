@@ -4,8 +4,8 @@ Architecture: all
 Depends: havis.capture-api, havis.capture.adapter.camera, havis.transform.transformer.imager
 Maintainer: Menucha Team <info@menucha.de>
 Filename: pool/main/h/havis.app.iso159612/havis.app.iso159612_2.7.0_all.deb
-Size: 618658
-MD5sum: 7835946f155e649ad3f67fb565867942
-SHA1: 7a1415ef0088957d86301626b9b102d140c8925d
-SHA256: d2f26f16781bd12005c28e164e497eab15d86019c60fbda8c951185db041bc46
+Size: 618790
+MD5sum: 1bad8b5e5bbfe6e598c4f54115d5da79
+SHA1: 20ccabfaab64cce506a6cc985236794e6a3abc01
+SHA256: 11770ef8559805e361d3edbe965e3e9327526e0ed51250fa34bc1cea561afaea
 Description: Ha-VIS ISO15961-2
