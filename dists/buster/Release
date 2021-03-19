@@ -1,0 +1,33 @@
+Architectures: amd64 armhf
+Codename: buster
+Components: main
+Date: Fri, 19 Mar 2021 10:50:14 +0000
+Description: Apps
+Label: Menucha
+Origin: menucha
+Suite: stable
+Version: 1.0
+MD5Sum:
+ 341416716dc5eb69bdd7972cc3cf1ec1              175 Release
+ df2cd53efef67cca213d3a9e6297c42b            13846 main/binary-amd64/Packages
+ 29aa83786cc13eb35c24d0b35c487ba1             4268 main/binary-amd64/Packages.xz
+ 8001410bdcef9dc8b6860eb5804ed0e7            14819 main/binary-armhf/Packages
+ c6c7261eefe8b29b1f75903537cc1fc1             4576 main/binary-armhf/Packages.xz
+SHA1:
+ 5ae7689b3ca517544f8f9a9df4061b59fcc8ad25              175 Release
+ de9cd79e5f365993610d524ff77b405cb97eb409            13846 main/binary-amd64/Packages
+ e95d6a5b80841d9a42758d3d09ae69ba6eb8437a             4268 main/binary-amd64/Packages.xz
+ 4b70bc9fb8807cd51e51878ae975397c1332c247            14819 main/binary-armhf/Packages
+ 3295fb2241184812482739f868544e2c38434658             4576 main/binary-armhf/Packages.xz
+SHA256:
+ 8fdc6326d3fa8f3afe1e93be4f8527b5734b647f2b4dc34a216eacb1124fd713              175 Release
+ 91ce0a2a34e78251dff11660fd5ab01d051b14e230d3522f8ae109ffefb4aa3f            13846 main/binary-amd64/Packages
+ 6051dfe7c5a970b8bb163313d6d26560e73e88de96dbdca687eb5f8a91da9a03             4268 main/binary-amd64/Packages.xz
+ c816b7310c567c9e1e50b9db2173023d52af29a36e2cc7e8cc37818ff58eecf1            14819 main/binary-armhf/Packages
+ cdb1d40e12b0f71826c34c75718c71643cb7954a5a81e23d1f9f0143f40b9d5a             4576 main/binary-armhf/Packages.xz
+SHA512:
+ 8e1d93ee53d213e10e9cf3afefb92d3077934af68ee341b8a1afeded1cb51c486713fe0a4c820d36dd8bb4bc45d100553265a00bc8e930f6a302cbedf104aae8              175 Release
+ c40945c701b8a18fcbcaf0138199da4e1f6d603067affdd3fa7677853959823a89365ee671f4d0cf166ad3f299b855f6baab92a94e20156a550e08732a274ab3            13846 main/binary-amd64/Packages
+ f2de8cc719bb9d62d39c94eb699bb23cc9c464a7a471675da386e456c849e640f3e09c582a31b4af0bc157a77e0bdf42d2018fcc229ff9f3518969138085c11c             4268 main/binary-amd64/Packages.xz
+ a0d648bc570a5967807d8c25b41d709b913b510fdf79c9812b7adbe7c46ff710c5519b9014f0a779c8f3f660a2aa0ca68ed327782477270c01e9ab7b7ac525c3            14819 main/binary-armhf/Packages
+ 85989be018506dcd0b8717ec5e351681acf5d62330e9e6f7c8e470e04a8c3918ec50f1a2e0793199ca74d4aa2e9a228ed7a63fcc62bc1d490dcc2d36d7bb8606             4576 main/binary-armhf/Packages.xz

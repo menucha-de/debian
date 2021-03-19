@@ -1,0 +1,452 @@
+Package: swagger-ui
+Version: 3.24.0-1
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 1384
+Filename: pool/main/s/swagger-ui/swagger-ui_3.24.0-1_all.deb
+Size: 280160
+MD5sum: 5a061015843cbf0f27979755c85a5c60
+SHA1: 6d5199ccaf7aaaa66cc114192859ff67754553dd
+SHA256: fb8ff2c4d14d38012b4fe71ed965f75e5495cc6d1ae39e048c62bbdb68dda4de
+Description: Swagger UI
+
+Package: linux-image-rpi
+Source: rpi
+Version: 4.19.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 6394
+Section: kernel
+Priority: optional
+Filename: pool/main/r/rpi/linux-image-rpi_4.19.0-1_armhf.deb
+Size: 5592176
+MD5sum: ed49fbe5c4d77432c366394beeef04c4
+SHA1: 7221795136e2062d599ad7a2658c55d0bd1769fb
+SHA256: 10ac5eb2852468148eb05aeb3d8faeeebea220094bcf26993d3acd9e45feba0a
+Description: The Linux kernel 4.19 image and dts for use on ARMv7 raspberrypi
+
+Package: vpn-dbgsym
+Source: vpn
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 4460
+Depends: vpn (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/v/vpn/vpn-dbgsym_1.0.0-1_armhf.deb
+Size: 3825768
+MD5sum: d3c9d52069d1c46e834e176a9a54e37f
+SHA1: acd6c3c67bbee84820b5003e68947fb95c2aa991
+SHA256: 7ac9fa8c88108a5302f26486d312021e466bc6ff8c7a61f65e7acc111f99c91e
+Description: debug symbols for vpn
+Build-Ids: c20137d1d75e527d53d6724b7690ae1aa0d90bd3
+
+Package: art
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 16721
+Depends: libc6 (>= 2.28), swagger-ui
+Filename: pool/main/a/art/art_1.0.0-1_armhf.deb
+Size: 4812396
+MD5sum: 886f94c80f4e06bc0982363cd6ccca6c
+SHA1: 9a6f55822497b28d520e46ee190d0e1c005cbbd5
+SHA256: dc178dabce9e71925a65aa3d587b9b530f9583b1ab5fca72e56bde01ab1f8800
+Description: Applicationm runtime service
+
+Package: system
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 10156
+Depends: libc6 (>= 2.28)
+Filename: pool/main/s/system/system_1.0.0-1_armhf.deb
+Size: 3294084
+MD5sum: ef752aabc1ab28be93dcd9d97fc41f68
+SHA1: 28b12c5a06cf3284d65656d2fca99b9fefd04b1f
+SHA256: dcf2dd46a8eda99c1f75fe2743d45bc4197e465dda88aafa56b9dd116f86c666
+Description: System web service
+
+Package: dropbear-bin-dbgsym
+Source: dropbear
+Version: 2018.76-5+menucha0
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Installed-Size: 1223
+Depends: dropbear-bin (= 2018.76-5+menucha0)
+Section: debug
+Priority: optional
+Filename: pool/main/d/dropbear/dropbear-bin-dbgsym_2018.76-5+menucha0_armhf.deb
+Size: 1056276
+MD5sum: 6f9456cd85b122b0818371e8780a6346
+SHA1: d6f50eb836e77dffa686fd14c58ebafebc1f66ca
+SHA256: 0a6aa3cc6b5571402a3554a597b015d8a704ff3db0e7b69722c641e00f90f749
+Description: debug symbols for dropbear-bin
+Build-Ids: 633cd745bf3ba7d9a5195fb082479c59ddcefda7 8c408ea2923d7fc29353eed1042626f03fd4e993 9275e0ae98b0e7f483e499b9e6b5458a64059dd0 ed19d5887f0df587d73c6335710cad922aabb6f3
+
+Package: libmica-gpio-dbgsym
+Source: mica-gpio
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 18
+Depends: libmica-gpio (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/m/mica-gpio/libmica-gpio-dbgsym_1.0.0-1_armhf.deb
+Size: 3296
+MD5sum: 5c83bb175f9f085de903ffdd91ae7839
+SHA1: 4ad4f0e631722a049f27a24d99f753be53bfec42
+SHA256: 3387a07855963897ee46041acccc56f1ef5f6e8adf9e6b60f3b8f5c416fb9eeb
+Description: debug symbols for libmica-gpio
+Build-Ids: 63bb040e4b8de46c1173b50cea0e9f73de2c5c72
+
+Package: log
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 18181
+Depends: libc6 (>= 2.28)
+Filename: pool/main/l/log/log_1.0.0-1_armhf.deb
+Size: 5404048
+MD5sum: 81b8aa665c8bb6cf9b3ac4bb1df3a266
+SHA1: 3e89305a1d1c9430510cb835febd0dc682a32c89
+SHA256: a1b433479f2fffaf6080614a3bd8d4515b8d56a380feba345008192f4670914e
+Description: Log Service
+
+Package: log-dbgsym
+Source: log
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 6976
+Depends: log (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/l/log/log-dbgsym_1.0.0-1_armhf.deb
+Size: 5489204
+MD5sum: 182d36bce5703fc65f0f41226163ba9a
+SHA1: 3683dc47af1e1c2ad6a3dc478338c9f166b44d20
+SHA256: 01019a7048d3fddc1d4ee7dbc31aae9f138e361e730127f8925bc54e69da0cd3
+Description: debug symbols for log
+Build-Ids: 7f66dfa69c3aca8bb24815f42b8655b830a5b0fd
+
+Package: libjava-modbus
+Version: 2.7.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 825
+Depends: libmodbus5
+Section: java
+Priority: optional
+Filename: pool/main/libj/libjava-modbus/libjava-modbus_2.7.0-1_armhf.deb
+Size: 352142
+MD5sum: b950794561d917d110abefc99f6ad9bb
+SHA1: a7c741bb40a24ed8da4e75ca95d4a8541efed09b
+SHA256: 450e369e22215e802f4f055925d8d5901b8f40d5bd25313092297d41f4a65e82
+Description: Modbus JNI
+
+Package: auth
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 9082
+Depends: libc6 (>= 2.28)
+Filename: pool/main/a/auth/auth_1.0.0-1_armhf.deb
+Size: 3015252
+MD5sum: b56b789a8b7fb08a5a1ae5a96a4afddb
+SHA1: 79db233b0aaea5e086cefb1336d9dca096fcc77c
+SHA256: bed4747dbfb825311a39654424e8800dcc314f4d6bfb5d36cd5dc99ed870d546
+Description: Auth Service
+
+Package: market
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 18936
+Depends: libc6 (>= 2.28), swagger-ui
+Filename: pool/main/m/market/market_1.0.0-1_armhf.deb
+Size: 5751472
+MD5sum: 1b52cff562739df8bb3c933abafef1c2
+SHA1: adb9fce7f908e9a81daa0fdf9c74a155232e9bb9
+SHA256: 18c611eb121a6dae7c38844cde1b90108d551f0e2de0f1b2654147d5a1c2681f
+Description: Market App Service
+
+Package: system-dbgsym
+Source: system
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 4986
+Depends: system (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/s/system/system-dbgsym_1.0.0-1_armhf.deb
+Size: 4218324
+MD5sum: 93923590c01e202ab0cbb307aee37b2d
+SHA1: e6d776970d42be7126ee6980bf09d81f78421917
+SHA256: 5fe566bf72bb42aaa04f08b4c05129a53ea8d642ad0277c2dae69f8d14e555b1
+Description: debug symbols for system
+Build-Ids: 7a3902031d96db29dfc63de181f7df4cbcba79f5
+
+Package: mqtt
+Version: 1.0.1-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 10975
+Depends: libc6 (>= 2.28), mosquitto
+Filename: pool/main/m/mqtt/mqtt_1.0.1-1_armhf.deb
+Size: 3314152
+MD5sum: 91a74c44530e3760e8809a47f534195c
+SHA1: e5750a4aa8a2f8aa26a0a125e155c32e42f63322
+SHA256: 9c7d36289896adb1f73c596a88cdbe1fd6ea2be8dc6a7faf6180dea9280d1524
+Description: MQTT broker
+
+Package: mqtt-dbgsym
+Source: mqtt
+Version: 1.0.1-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 4544
+Depends: mqtt (= 1.0.1-1)
+Section: debug
+Priority: optional
+Filename: pool/main/m/mqtt/mqtt-dbgsym_1.0.1-1_armhf.deb
+Size: 3893264
+MD5sum: d7e2417b18bcc5251c506690d151ac18
+SHA1: 06ed0a898efbeb497190a6ddd2db63428d2c1059
+SHA256: db854e79895c983d725b3f8bb4eae653b76cd71ba5c51ce48cccf5090617c3dd
+Description: debug symbols for mqtt
+Build-Ids: ef58861c2e76efda930fc99e9b07fd09109ace4e
+
+Package: gpio-dbgsym
+Source: gpio
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 4645
+Depends: gpio (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/g/gpio/gpio-dbgsym_1.0.0-1_armhf.deb
+Size: 3968696
+MD5sum: 423fb7be3cbb133186ce4effcdb32bac
+SHA1: 50c685476ff9f8c85bcd01a177888d2a84083aea
+SHA256: c35eba7ccd328910b90d37e64f204ef0cde7c3d7b881870219d1d6c2bedd269e
+Description: debug symbols for gpio
+Build-Ids: ba819c8bf9d770de453c3b240e2e34ebebea5714
+
+Package: gpio
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 11060
+Depends: libc6 (>= 2.28), libhidapi-libusb0 (>= 0.8.0~rc1+git20140201.3a66d4e+dfsg), libmica-gpio, swagger-ui
+Filename: pool/main/g/gpio/gpio_1.0.0-1_armhf.deb
+Size: 3384068
+MD5sum: 703b92a35fe2a9e327d86ecdc80d4491
+SHA1: 032ccd0524f7928fbeb7d7d3cd56dcdc8657a14d
+SHA256: bcc06acbfdc2e571ed88fd8db3bb4c3a5b043fbb84b154d70d276624e779442a
+Description: MICA GPIO service
+
+Package: main
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 3595
+Filename: pool/main/m/main/main_1.0.0-1_all.deb
+Size: 1195508
+MD5sum: 05cebbbfa0535122993bd38ef5649da0
+SHA1: 82bac5b0319f0cb780e04814af4a597d95f4ada0
+SHA256: b25c1c6b3b8777d9bd5e036c377f01187dae7b4e3d2ae5329a6f98e5a2548a4f
+Description: Runtime main service
+
+Package: market-dbgsym
+Source: market
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 7472
+Depends: market (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/m/market/market-dbgsym_1.0.0-1_armhf.deb
+Size: 5846276
+MD5sum: e24296bbfadb52ed4f3e95c40b3e08a7
+SHA1: fd494f8cb087ae87caffa28427ed1c47f791b9ce
+SHA256: d3cd23988637a96fbda967a07f98d32ea273fb4e6098d3f58476f5f58bb3a82a
+Description: debug symbols for market
+Build-Ids: b4f2aadc5e4616b5029ab430d773166e446a1a61
+
+Package: auth-dbgsym
+Source: auth
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 4614
+Depends: auth (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/a/auth/auth-dbgsym_1.0.0-1_armhf.deb
+Size: 3946644
+MD5sum: e0c8fc4a22b52d90ca6f3ab8cce1b450
+SHA1: 96c875242824b819a4f8c60059ebb2fb382aa7d4
+SHA256: b15d2e4799fb34b52b2f832404898fd1c9ff6c40dfad3a8116b232139c45a2e8
+Description: debug symbols for auth
+Build-Ids: bf318a6b35d0b6072db49c4eedc63423838442b3
+
+Package: libmica-gpio
+Source: mica-gpio
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 24
+Depends: libc6 (>= 2.7), libhidapi-libusb0 (>= 0.8.0~rc1+git20140201.3a66d4e+dfsg), libusb-1.0-0 (>= 2:1.0.8)
+Filename: pool/main/m/mica-gpio/libmica-gpio_1.0.0-1_armhf.deb
+Size: 7652
+MD5sum: 75c85d940761b2faf9f3f1b7d381014a
+SHA1: b867d24eeb42a8c1bf38b14a8a20291dc377f904
+SHA256: d59e81520c5b8cd55eb63b800bdb0c4e96f8e1a755ec848c054a36c354175b1a
+Description: Native IO Device Implementation for MICA
+
+Package: dropbear-scp
+Source: dropbear
+Version: 2018.76-5+menucha0
+Architecture: armhf
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Installed-Size: 63
+Depends: dropbear-bin (>= 2018.76-5+menucha0)
+Conflicts: openssh-client
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+Filename: pool/main/d/dropbear/dropbear-scp_2018.76-5+menucha0_armhf.deb
+Size: 43976
+MD5sum: 36b2574a01e36f15047e0c58872c8d97
+SHA1: 8119fef2f75d23d872cb6dbdccdfd50029b8c79d
+SHA256: babb87b7d26dee19c7e72aa3f61ad5a95d14b7ffed78016a69c423502ae10f3a
+Description: lightweight SSH2 server and client - scp
+
+Package: libjava-modbus-dbgsym
+Source: libjava-modbus
+Version: 2.7.0-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 550
+Depends: libjava-modbus (= 2.7.0-1)
+Section: debug
+Priority: extra
+Filename: pool/main/libj/libjava-modbus/libjava-modbus-dbgsym_2.7.0-1_armhf.deb
+Size: 187668
+MD5sum: 7d0fec10d401df8c77c4a1722886dff5
+SHA1: b9a5284ba71c6bbee4e8121b5570260405473249
+SHA256: bd6acad1eb51003a566fffaf1b9e248a8851ffbd778b46cee4a6f8d8e381fdf4
+Description: Debug symbols for libjava-modbus
+Build-Ids: fea5e81279c80546c079895c9e42a9d571870267
+
+Package: dropbear-scp-dbgsym
+Source: dropbear
+Version: 2018.76-5+menucha0
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Installed-Size: 63
+Depends: dropbear-scp (= 2018.76-5+menucha0)
+Section: debug
+Priority: optional
+Filename: pool/main/d/dropbear/dropbear-scp-dbgsym_2018.76-5+menucha0_armhf.deb
+Size: 46160
+MD5sum: a1a54eaf85a18a3eaaf7307acb7d1898
+SHA1: b87ff14969302a31792f60c486d4ff53f86c75c2
+SHA256: 4565e8277791f14dd42a7d02fac088c3ac76f20170001f92b7e3ea1df878e09f
+Description: debug symbols for dropbear-scp
+Build-Ids: 9368a816535d9ceb4d0b088297b5dbde777846cc
+
+Package: art-dbgsym
+Source: art
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 7527
+Depends: art (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/a/art/art-dbgsym_1.0.0-1_armhf.deb
+Size: 5886036
+MD5sum: 1ebd90ee51798d6f819ddfab754eaa46
+SHA1: 59caeaa7da44cca655cfe6a453e6c358d6fc3556
+SHA256: ee204375cf5fb0047efb1ab707f8d8197d3fe8fa3402c65dcc6893e30553ad8a
+Description: debug symbols for art
+Build-Ids: d0987316a60a07f29a0785c9e7bd20d567155519
+
+Package: dropbear-bin
+Source: dropbear
+Version: 2018.76-5+menucha0
+Architecture: armhf
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Installed-Size: 289
+Depends: libc6 (>= 2.28), libtomcrypt1, libtommath1 (>= 1.1.0), zlib1g (>= 1:1.1.4)
+Suggests: openssh-client, xauth
+Breaks: dropbear (<< 2015.68-1)
+Replaces: dropbear (<< 2015.68-1)
+Provides: ssh-server
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+Filename: pool/main/d/dropbear/dropbear-bin_2018.76-5+menucha0_armhf.deb
+Size: 113076
+MD5sum: 7dd8d29cb18bf6562803195f81e7bbe7
+SHA1: 2125fb3408a81dc887a4e63e0257deddb0e230fb
+SHA256: 1e2b1b54678b02b48a74bbf53e3625816aa05cef7f4051e584298654ad933289
+Description: lightweight SSH2 server and client - command line tools
+ dropbear is a SSH 2 server and client designed to be small enough to
+ be used in small memory environments, while still being functional and
+ secure enough for general use.
+ .
+ It implements most required features of the SSH 2 protocol, and other
+ features such as X11 and authentication agent forwarding.
+ .
+ This package provides dropbear, dbclient, dropbearkey and dropbearconvert.
+
+Package: linux-modules-rpi
+Source: rpi
+Version: 4.19.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 55072
+Section: kernel
+Priority: optional
+Filename: pool/main/r/rpi/linux-modules-rpi_4.19.0-1_armhf.deb
+Size: 12425652
+MD5sum: a46ba54338e03ca8dff2bdfeda79a71b
+SHA1: 113d4908c606fed7ec3e8abde38ce432af7d85d3
+SHA256: 7dda4460acd80c82a83e35cf1f418bc1101fe03b14af45e179f95b6bf8ac43f8
+Description: The Linux kernel 4.19 modules for use on ARMv7 raspberrypi
+
+Package: vpn
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 8717
+Depends: libc6 (>= 2.28), openvpn, swagger-ui
+Filename: pool/main/v/vpn/vpn_1.0.0-1_armhf.deb
+Size: 2900564
+MD5sum: cdbc0a0a5dcd0f2e5b85bbf7040e9365
+SHA1: dc1e73d8d97b43f0b73813af93b427371e728fcf
+SHA256: a17d845eb99d3bff6c094971fbdeb4f161639718bcc4a2df1a402bb1160b250e
+Description: VPN App Service
+

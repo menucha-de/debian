@@ -1,0 +1,454 @@
+Package: havis.middleware.ale-impl
+Version: 2.7.0
+Architecture: all
+Depends: havis.middleware.ale-api
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.middleware.ale-impl/havis.middleware.ale-impl_2.7.0_all.deb
+Size: 794512
+MD5sum: d2e915c6d357ee42c437e05b465b9a3c
+SHA1: 988cd42730f21cd88ce8813a93b42a963ef4cbfc
+SHA256: 5e54e284925254dc069400a46c8225376f279c13b0f65e73b950e99a48dd997e
+Description: Ha-VIS Middleware ALE Implementation
+
+Package: swagger-ui
+Version: 3.24.0-1
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 1384
+Filename: pool/main/s/swagger-ui/swagger-ui_3.24.0-1_all.deb
+Size: 280160
+MD5sum: 5a061015843cbf0f27979755c85a5c60
+SHA1: 6d5199ccaf7aaaa66cc114192859ff67754553dd
+SHA256: fb8ff2c4d14d38012b4fe71ed965f75e5495cc6d1ae39e048c62bbdb68dda4de
+Description: Swagger UI
+
+Package: havis.llrp-server
+Version: 2.7.0
+Architecture: amd64
+Depends: havis.device.io, havis.device.rf
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.llrp-server/havis.llrp-server_2.7.0_amd64.deb
+Size: 843422
+MD5sum: 57a6210ccbbad95981e9262be563dcc3
+SHA1: 1f5201d9928d104dbaa291638d3df1d29e2ecec9
+SHA256: a3e0f4aae291a449f4a0f351e4b1fc9f1605d49367155ea67f893d27e483729d
+Description: Ha-VIS LLRP Server
+
+Package: havis.device.io-empty
+Version: 2.7.0
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.device.io-empty/havis.device.io-empty_2.7.0_all.deb
+Size: 4378
+MD5sum: f3594ea6fc3d8a2a444efcee9a782ce6
+SHA1: dc22faadcdb7b7c59d5ce13b3db0962eb9366179
+SHA256: 64741cbacc5a2c17641642574c7e00901dca9fd8f62c31a6e6ad9660d0eb755c
+Description: Ha-VIS Custom IO Empty Implementation
+
+Package: havis.app.monitortransport
+Version: 2.7.0
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.app.monitortransport/havis.app.monitortransport_2.7.0_all.deb
+Size: 284298
+MD5sum: 4e0c7fa43ad8e5e9f4e13f5fbf71f8ea
+SHA1: 248f2fa1225c41662db88e5997612354cd6c3cb9
+SHA256: 33ab8e3aa4f7d6456fcfe6c162a5998fc6631f4b5843ef444d908e4ac1551639
+Description: Ha-VIS Custom Event Reporter App
+
+Package: havis.capture-api
+Version: 2.7.0-1
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 85
+Filename: pool/main/h/havis.capture-api/havis.capture-api_2.7.0-1_all.deb
+Size: 68672
+MD5sum: 5ae95dda78afcad20b732a9261e06532
+SHA1: bec1395eaaa3b86333ad5ecab8915dbbc171e800
+SHA256: f16496a247bd937dea918dfd696bab1bcd72146174cd8d357821332f12104324
+Description: Ha-VIS Capture API
+
+Package: havis.app.assignmentstore
+Version: 2.7.0
+Architecture: all
+Depends: havis.middleware
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.app.assignmentstore/havis.app.assignmentstore_2.7.0_all.deb
+Size: 314358
+MD5sum: 9a469bc3089d6cdce5446feb834226b4
+SHA1: 512ea83312ed73b9aff1b894d6f5409034ac6e91
+SHA256: f2bb739c694c2bb8a3c9adc6643de147130b40ba211cd2bac9fc9a40663f1bdd
+Description: Ha-VIS Custom Assignment Store App
+
+Package: havis.middleware
+Version: 2.7.0
+Architecture: amd64
+Depends: havis.middleware.ale-impl, havis.middleware.ale-api, havis.middleware.utils, havis.middleware.tdt
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.middleware/havis.middleware_2.7.0_amd64.deb
+Size: 2784014
+MD5sum: 8f158fd28cfd56d39a810df0692514a3
+SHA1: a087534bf6684cee4340be88baaf9b59c4cd63ef
+SHA256: e7e2ab43aad0ebe57744585792956f0c721cce5aa0150dba24c7d44829b7f9f7
+Description: Ha-VIS Middleware
+
+Package: libjava-modbus-dbgsym
+Source: libjava-modbus
+Version: 2.7.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 445
+Depends: libjava-modbus (= 2.7.0-1)
+Section: debug
+Priority: extra
+Filename: pool/main/libj/libjava-modbus/libjava-modbus-dbgsym_2.7.0-1_amd64.deb
+Size: 169794
+MD5sum: 23ba84b90a9493e6875c27515d2da276
+SHA1: cdef0e47b0035cf567e5a74051312ef287eaf153
+SHA256: 162425af4ae34a840139fa66a04262774e563dc791c40e349e10c6e312b6064f
+Description: Debug symbols for libjava-modbus
+Build-Ids: 67e2b2e0962d57eaa8cf2a7883c4399fc2c9b80f
+
+Package: havis-jdk-8
+Source: havis-jre
+Version: 2.7.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 77822
+Depends: libc6 (>= 2.14), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Conflicts: havis-jre-8, openjdk-8-jre-headless
+Provides: havis-jre-8, openjdk-8-jre-headless (= 8u275-b01-1~deb9u1)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://menucha-de.github.io
+Filename: pool/main/h/havis-jre/havis-jdk-8_2.7.0-1_amd64.deb
+Size: 19243790
+MD5sum: 3a0443b07cff2e4180cf200de6eb95d9
+SHA1: bba213c16d0e24f82c6547d2ac29d4a629c5509b
+SHA256: 1ec2eca26e8f4da4e96ec4d1eef2327903b6c2503f627bfaae3034505c424640
+Description: OpenJDK Java runtime, using Hotspot JIT (headless)
+ Minimal Java runtime - needed for executing non GUI Java programs, using Hotspot JIT.
+
+Package: busybox-static-dbgsym
+Source: busybox
+Version: 1:1.22.0-19+menucha0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 1737
+Depends: busybox-static (= 1:1.22.0-19+menucha0)
+Built-Using: glibc (= 2.24-11+deb9u4)
+Section: debug
+Priority: extra
+Homepage: http://www.busybox.net
+Filename: pool/main/b/busybox/busybox-static-dbgsym_1.22.0-19+menucha0_amd64.deb
+Size: 1575740
+MD5sum: b9b544f7e1a5b94d4d4b59b31c547b8e
+SHA1: 1b408c028aea10194bafc9249e2688b835a58d25
+SHA256: cef8cedf6623cef64a8110b2c6819e51912c55e8a14e53acc4fd717d89227566
+Description: Debug symbols for busybox-static
+Build-Ids: 764a738398bce236e4fd4961c978ff00563fbe5b
+
+Package: havis.middleware.tdt
+Version: 2.7.0
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.middleware.tdt/havis.middleware.tdt_2.7.0_all.deb
+Size: 193346
+MD5sum: c44b7f938e542f3def0f627d342b9bf3
+SHA1: d1f93c3a70b33173b3e3b18dcdafcb26c611f9f8
+SHA256: f07409a7d00135011a011e4ed4ead313e5185050b5057c40ae7785272dc69147
+Description: Ha-VIS Middleware TDT
+
+Package: havis.app.rfidhardwaremonitor
+Version: 2.7.0
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.app.rfidhardwaremonitor/havis.app.rfidhardwaremonitor_2.7.0_all.deb
+Size: 251780
+MD5sum: fccf045945b831a650da20bceaadccac
+SHA1: 3e19c2823755717b0c94dbe7020967dbb0009122
+SHA256: 900f2070a17e9a074861becaa499791aed0b1a3384c446b4aad3c31a1f64847a
+Description: Ha-VIS Custom RFID Hardware Monitor App
+
+Package: havis.middleware.ale-api
+Version: 2.7.0
+Architecture: all
+Depends: havis.middleware.utils, havis.middleware.tdt
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.middleware.ale-api/havis.middleware.ale-api_2.7.0_all.deb
+Size: 669216
+MD5sum: ee5467d5653f0f5db5b131a06beb925e
+SHA1: 62f528781c4c5c5b5af5090de1e27b789b0b0d87
+SHA256: de794e2f9023f66c7ac9e3c0465e17dad593161400740970ae75079c8cc3aff8
+Description: Ha-VIS Middleware ALE API
+
+Package: havis.device.rf-nur
+Version: 2.7.0
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.device.rf-nur/havis.device.rf-nur_2.7.0_amd64.deb
+Size: 484658
+MD5sum: 15b8ce12972813a6dbb49fe778300283
+SHA1: 7d38602de1f072c3c4801d8c720b1545b7ab26a0
+SHA256: a290d99279093fb9b2cd3b6f00a8b51867e0ad6fa08531bab88406defb047cd0
+Description: Ha-VIS NUR RF Device
+
+Package: havis-depot
+Version: 2.7.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 42
+Depends: busybox
+Recommends: mica-rpc
+Provides: httpd
+Filename: pool/main/h/havis-depot/havis-depot_2.7.0-1_amd64.deb
+Size: 9044
+MD5sum: a06ba70139eff53f22988aba0810f953
+SHA1: 1bb8ba637fd35c4f015788f118609264c00b69f3
+SHA256: 25280f708bcf74c2fbedfda79ed297da63a72fdd2190002bd582355eab92c4ef
+Description: Ha-VIS Depot
+
+Package: havis.app.itemchecker
+Version: 2.7.0
+Architecture: all
+Depends: havis.middleware
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.app.itemchecker/havis.app.itemchecker_2.7.0_all.deb
+Size: 361982
+MD5sum: 87e71d08522e170a30d85f4ff1134052
+SHA1: fd82e50baef0117f51314c79f5cbe7ff9d0c2b6b
+SHA256: 5df2ae1218bc757a32945b491836b9c5e5f42a8c26cf8bc4aef5acc61f2f6f51
+Description: Ha-VIS Custom Item Checker App
+
+Package: busybox-static
+Source: busybox
+Version: 1:1.22.0-19+menucha0
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 1886
+Conflicts: busybox
+Replaces: busybox
+Provides: busybox
+Built-Using: glibc (= 2.24-11+deb9u4)
+Section: shells
+Priority: extra
+Homepage: http://www.busybox.net
+Filename: pool/main/b/busybox/busybox-static_1.22.0-19+menucha0_amd64.deb
+Size: 854930
+MD5sum: 7d7ad2e2924a2f219408729d9195ae76
+SHA1: 3f7b69beb57692d334ca160af8c7870671486809
+SHA256: 173c30303e6c40ef0e22d4a8e6e2fece4c2f982b90c410c145420888ca31985c
+Description: Standalone rescue shell with tons of builtin utilities
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.).  The utilities in BusyBox generally have fewer options than
+ their full-featured GNU cousins; however, the options that are included
+ provide the expected functionality and behave very much like their GNU
+ counterparts.
+ .
+ busybox-static provides you with a statically linked simple stand alone shell
+ that provides all the utilities available in BusyBox. This package is
+ intended to be used as a rescue shell, in the event that you screw up your
+ system. Invoke "busybox sh" and you have a standalone shell ready to save
+ your system from certain destruction. Invoke "busybox", and it will list the
+ available builtin commands.
+
+Package: busybox-dbgsym
+Source: busybox
+Version: 1:1.22.0-19+menucha0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 1493
+Depends: busybox (= 1:1.22.0-19+menucha0)
+Section: debug
+Priority: extra
+Homepage: http://www.busybox.net
+Filename: pool/main/b/busybox/busybox-dbgsym_1.22.0-19+menucha0_amd64.deb
+Size: 1412236
+MD5sum: 4a65912d3a553ff5aedbdd1e69c50035
+SHA1: a99c8b08d7f158243cda9565fbd454d78a1952ad
+SHA256: 7e03dabd19055e4e44c9176c8bbb90321c183418f18514106525cf5fcb58038b
+Description: Debug symbols for busybox
+Build-Ids: 479d8a81286cf845c1576e9167bc7b4c5cbf35b6
+
+Package: havis-jre-8
+Source: havis-jre
+Version: 2.7.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 77505
+Depends: libc6 (>= 2.14), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Conflicts: openjdk-8-jre-headless
+Provides: openjdk-8-jre-headless (= 8u275-b01-1~deb9u1)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://menucha-de.github.io
+Filename: pool/main/h/havis-jre/havis-jre-8_2.7.0-1_amd64.deb
+Size: 19142570
+MD5sum: bf17678fe5fc2c661a2c8d1d495fe29d
+SHA1: d36e2eeddf9ec24bd4f06c27b61001f5c07006f6
+SHA256: df672598712280e77c73fcaa496aa80779151e6679c85bac7f763a136011c06e
+Description: OpenJDK Java runtime, using Hotspot JIT (headless)
+ Minimal Java runtime - needed for executing non GUI Java programs, using Hotspot JIT.
+
+Package: havis.middleware.utils
+Version:2.7.0
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.middleware.utils/havis.middleware.utils_2.7.0_all.deb
+Size: 21538
+MD5sum: ba0efe4e64369199caa3a2d2e6146705
+SHA1: dfd2802bc0c3ba93ce4cb04b841d0a25bdde972b
+SHA256: 34435ab266ccdebd3a58040f329fc01c9ab54280ff5db3b56827848f3f2ff4a9
+Description: Ha-VIS Middleware Utils
+
+Package: havis.device.rf-empty
+Version: 2.7.0
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.device.rf-empty/havis.device.rf-empty_2.7.0_all.deb
+Size: 6466
+MD5sum: 3f8c4fc0fa3014b76e4805c0e2b832a0
+SHA1: 37b860be4df8bbce26cef0ae5d67306cf66cbd2d
+SHA256: 3c08f0c4f4da792c619f68b0f5571a939c557dcf36341c5c57f8ac944cab0030
+Description: Ha-VIS Empty RF Device
+
+Package: busybox
+Version: 1:1.22.0-19+menucha0
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 745
+Depends: libc6 (>= 2.16)
+Conflicts: busybox-static
+Breaks: initramfs-tools (<< 0.99)
+Replaces: busybox-static
+Section: utils
+Priority: optional
+Homepage: http://www.busybox.net
+Filename: pool/main/b/busybox/busybox_1.22.0-19+menucha0_amd64.deb
+Size: 413804
+MD5sum: cd64034a9f5135af7381a499cd7b78a9
+SHA1: 9eac3833a7e14fccdebe2477eb8dfa0a3dfa93a6
+SHA256: a8e1ac9114b71f5f27e516bba7ac879e44068d28c6e5489f95547ad2ccf6f90a
+Description: Tiny utilities for small and embedded systems
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.). The utilities in BusyBox generally have fewer options than
+ their full-featured GNU cousins; however, the options that are included
+ provide the expected functionality and behave very much like their GNU
+ counterparts.
+ .
+ This package installs the BusyBox binary but does not install
+ symlinks for any of the supported utilities. Some of the utilities
+ can be used in the system by installing the busybox-syslogd,
+ busybox-udhcpc or busybox-udhcpd packages.
+
+Package: libjava-modbus
+Version: 2.7.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 1248
+Depends: libmodbus5
+Section: java
+Priority: optional
+Filename: pool/main/libj/libjava-modbus/libjava-modbus_2.7.0-1_amd64.deb
+Size: 418022
+MD5sum: f9f2fa2873aa1c115a3ae597ec7d1530
+SHA1: 8cd07762521e9b6bc99c26ab09dbaa810b5c7c01
+SHA256: 3d2fd0118461ab0f3e96230d6dae12360ec6dc7abbc2e68a1fcb2df2f399f6ae
+Description: Modbus JNI
+
+Package: udhcpc
+Source: busybox
+Version: 1:1.22.0-19+menucha0
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 37
+Depends: busybox (>> 1:1.22.0) | busybox-static (>> 1:1.22.0)
+Section: net
+Priority: optional
+Homepage: http://www.busybox.net
+Filename: pool/main/b/busybox/udhcpc_1.22.0-19+menucha0_amd64.deb
+Size: 22438
+MD5sum: a87446d5060f6d3cfd9f96b05b615f25
+SHA1: da4949f5a6ffedc74bce1b41638d723cf0022866
+SHA256: 45005c57d05b70ec3c288ad97f1357fc130cf4469dae916791a28e517c6f693a
+Description: Provides the busybox DHCP client implementation
+ Busybox contains a very small yet fully functional RFC compliant DHCP
+ client formerly known as udhcpc.
+ .
+ This package contains the glue to use the busybox udhcpc as DHCP
+ client in the system by providing the appropriate symbolic links and
+ scripts.
+
+Package: havis-apps
+Version: 2.7.0-1
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 13795
+Depends: busybox, havis-jre-8, swagger-ui, libusb-1.0-0, libhidapi-libusb0
+Recommends: mica-rpc, havis.middleware
+Provides: httpd
+Filename: pool/main/h/havis-apps/havis-apps_2.7.0-1_all.deb
+Size: 9954172
+MD5sum: c607b1de766f2b1467eb88875b2e5650
+SHA1: 5b6cc01dd57e07168e9e8fc0d133530f2b68a71b
+SHA256: ed4fb4a963cfd42c015077c558a07fab13e96feb9441eae97c5012f47c1d4430
+Description: Ha-VIS Apps
+
+Package: havis.app.assignmentcontrol
+Version: 2.7.0
+Architecture: all
+Depends: havis.middleware
+Maintainer: Menucha Team <info@menucha.de>
+Filename: pool/main/h/havis.app.assignmentcontrol/havis.app.assignmentcontrol_2.7.0_all.deb
+Size: 274020
+MD5sum: 7b1f4cb1267bbcc68b8a56c0b3060f93
+SHA1: 98a1bc16f46a17e9e2339a47ec989df92ca9be68
+SHA256: 644d0113e9537e32b3ebd7050d3cac6b9179e0385029ae74c36abd70feacc9a7
+Description: Ha-VIS Custom Assignment Control App
+
+Package: udhcpd
+Source: busybox
+Version: 1:1.22.0-19+menucha0
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 52
+Depends: busybox (>> 1:1.22.0) | busybox-static (>> 1:1.22.0)
+Provides: dhcpd
+Section: net
+Priority: optional
+Homepage: http://www.busybox.net
+Filename: pool/main/b/busybox/udhcpd_1.22.0-19+menucha0_amd64.deb
+Size: 25176
+MD5sum: 85e3c09ee484ff33b1633d0a31df3bc3
+SHA1: dc4048c72074403b6ef80b73ff2ce619ce141dfb
+SHA256: 600e0735fa5bd31d1ecdb4c08c873a18e9ee5c4dad262c94df538c392ace39b6
+Description: Provides the busybox DHCP server implementation
+ Busybox contains a very small yet fully function RFC compliant DHCP
+ server formerly known as udhcpd.
+ .
+ This package contains the glue to use the busybox udhcpd as DHCP
+ server in the system by providing the appropriate symbolic links and
+ scripts.
+
+Package: havis.capture.adapter.camera
+Version: 2.7.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 43
+Depends: libv4l-0
+Filename: pool/main/h/havis.capture.adapter.camera/havis.capture.adapter.camera_2.7.0-1_amd64.deb
+Size: 28968
+MD5sum: 745577a10d5cc72db45de48d5dd331b1
+SHA1: bfda03659cb9a5e4829294c6552bbf93de0df847
+SHA256: 09baff166c82da84cf975c50047bbbbe09deeff32a867fddc8f0d3d4e3dbd64f
+Description: Ha-VIS Capture Adapter Camera
+

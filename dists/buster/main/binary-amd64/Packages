@@ -1,0 +1,422 @@
+Package: swagger-ui
+Version: 3.24.0-1
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 1384
+Filename: pool/main/s/swagger-ui/swagger-ui_3.24.0-1_all.deb
+Size: 280160
+MD5sum: 5a061015843cbf0f27979755c85a5c60
+SHA1: 6d5199ccaf7aaaa66cc114192859ff67754553dd
+SHA256: fb8ff2c4d14d38012b4fe71ed965f75e5495cc6d1ae39e048c62bbdb68dda4de
+Description: Swagger UI
+
+Package: system-dbgsym
+Source: system
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 5485
+Depends: system (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/s/system/system-dbgsym_1.0.0-1_amd64.deb
+Size: 4562576
+MD5sum: dd69cbe98c6fe17e77dc935f0b54e109
+SHA1: 09f65619a487846be7dfd6ed9836b56b585bbbb7
+SHA256: 16b325478744c3b79f7f55bfd4183a55d3d55938d6c55e508e7b37afe619b274
+Description: debug symbols for system
+Build-Ids: 2393a6cc4e7f999d829e9d49c9e71f3f32a2e01c
+
+Package: market-dbgsym
+Source: market
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 10007
+Depends: market (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/m/market/market-dbgsym_1.0.0-1_amd64.deb
+Size: 6888040
+MD5sum: e39176b933c6c88fb3a2a4fa9015c6ab
+SHA1: 32fcd30b5ce1f0c8fb0078ae47270bc9aefe4da2
+SHA256: f75eaf3eec6b4199839ce88689722e1e306be43e7f1c87b0df15c60bbdd93284
+Description: debug symbols for market
+Build-Ids: 0b558d3bfda561a107a704b308bcefdadf7562ca
+
+Package: log-dbgsym
+Source: log
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 9305
+Depends: log (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/l/log/log-dbgsym_1.0.0-1_amd64.deb
+Size: 6444688
+MD5sum: 7c6ba7b55566b6bbb68bd6812278c5f5
+SHA1: 8698e076514903782aacf3df610a505ae79e0950
+SHA256: 9f53c8b88099feeed93a2e5a64647c7c398e7379435c3756c7947a3110a0eda2
+Description: debug symbols for log
+Build-Ids: 15b3344b070a2d51244968817a4616b4151af8e3
+
+Package: vpn-dbgsym
+Source: vpn
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 4892
+Depends: vpn (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/v/vpn/vpn-dbgsym_1.0.0-1_amd64.deb
+Size: 4129964
+MD5sum: add7cdf966e103e9d420007adb272537
+SHA1: d42d811438a6bd54d43d262fd3af3e94439fe44d
+SHA256: dcabeeaa81201c0239cb76f55d8f89cf94530a2c178119b202038999fb1bc875
+Description: debug symbols for vpn
+Build-Ids: 8c632f7cf19aeb76ed14f9503107601a08cde464
+
+Package: libjava-modbus-dbgsym
+Source: libjava-modbus
+Version: 2.7.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 445
+Depends: libjava-modbus (= 2.7.0-1)
+Section: debug
+Priority: extra
+Filename: pool/main/libj/libjava-modbus/libjava-modbus-dbgsym_2.7.0-1_amd64.deb
+Size: 169794
+MD5sum: 23ba84b90a9493e6875c27515d2da276
+SHA1: cdef0e47b0035cf567e5a74051312ef287eaf153
+SHA256: 162425af4ae34a840139fa66a04262774e563dc791c40e349e10c6e312b6064f
+Description: Debug symbols for libjava-modbus
+Build-Ids: 67e2b2e0962d57eaa8cf2a7883c4399fc2c9b80f
+
+Package: libmica-gpio
+Source: mica-gpio
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 37
+Depends: libc6 (>= 2.7), libhidapi-libusb0 (>= 0.8.0~rc1+git20140201.3a66d4e+dfsg), libusb-1.0-0 (>= 2:1.0.8)
+Filename: pool/main/m/mica-gpio/libmica-gpio_1.0.0-1_amd64.deb
+Size: 9036
+MD5sum: 6be5f92c65d1013584d22fdba6763013
+SHA1: e822cc673d2f2bc377a8fc5c03c2a0a41867dd59
+SHA256: c24ae3d09afc8fa6dd960f40a4d1982f1be313615c9b3890a2be23fa6f37757a
+Description: Native IO Device Implementation for MICA
+
+Package: art-dbgsym
+Source: art
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 10084
+Depends: art (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/a/art/art-dbgsym_1.0.0-1_amd64.deb
+Size: 6933620
+MD5sum: 704543b31377b2b176cdcf911afb13ed
+SHA1: 5ba1ee479e2ab8e2fd4289eebfa88d3adc835057
+SHA256: edb19c25e79d391eaa902a58412a287376f68155d7cabadefd96092f07d83cbd
+Description: debug symbols for art
+Build-Ids: 4dc63019a9b04255539968e3d77e7f49531ebb0e
+
+Package: dropbear-scp-dbgsym
+Source: dropbear
+Version: 2018.76-5+menucha0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Installed-Size: 62
+Depends: dropbear-scp (= 2018.76-5+menucha0)
+Section: debug
+Priority: optional
+Filename: pool/main/d/dropbear/dropbear-scp-dbgsym_2018.76-5+menucha0_amd64.deb
+Size: 45160
+MD5sum: be45faff44d96f82df61401f89e77753
+SHA1: c0194321048c6b0c9b723df9424972e738e6764c
+SHA256: c6be10cdb32a81a5a5a8aa7de273be6b0eb8520efacb070d1c05fd073929d7bd
+Description: debug symbols for dropbear-scp
+Build-Ids: e167ac476d4a2d34f5a074996541be2ce727210c
+
+Package: market
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 25918
+Depends: libc6 (>= 2.28), swagger-ui
+Filename: pool/main/m/market/market_1.0.0-1_amd64.deb
+Size: 7731952
+MD5sum: 16338af09f63a2b61029f3a52cd3bbab
+SHA1: a8a7ea0f228b703a33679a32052b7eb2e4213933
+SHA256: 0da0b6f8e7b115c98e629da7265eae63a1f5ff56c923407869b207c05b9e89e5
+Description: Market App Service
+
+Package: main
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 3595
+Filename: pool/main/m/main/main_1.0.0-1_all.deb
+Size: 1195508
+MD5sum: 05cebbbfa0535122993bd38ef5649da0
+SHA1: 82bac5b0319f0cb780e04814af4a597d95f4ada0
+SHA256: b25c1c6b3b8777d9bd5e036c377f01187dae7b4e3d2ae5329a6f98e5a2548a4f
+Description: Runtime main service
+
+Package: dropbear-bin-dbgsym
+Source: dropbear
+Version: 2018.76-5+menucha0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Installed-Size: 1238
+Depends: dropbear-bin (= 2018.76-5+menucha0)
+Section: debug
+Priority: optional
+Filename: pool/main/d/dropbear/dropbear-bin-dbgsym_2018.76-5+menucha0_amd64.deb
+Size: 1076924
+MD5sum: b37745d563945807c072c920199a58f2
+SHA1: da19c91c939578b815dbe1adb3ed4f57b3ea41b3
+SHA256: 83297df6315c929c741e7f41c200f162eebf3aa1e2200f99146f79687e0cf6d8
+Description: debug symbols for dropbear-bin
+Build-Ids: 4cc8fb2763b97817af3442f48ede71e2c3192401 721db6ded5722c60259b4acdd99f1d070c841d1a d983387e36915908d5f5d3f1278dc26da6aff440 fc26258f6116379c263847ac963f51a6a21043d3
+
+Package: vpn
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 10171
+Depends: libc6 (>= 2.28), openvpn, swagger-ui
+Filename: pool/main/v/vpn/vpn_1.0.0-1_amd64.deb
+Size: 3325656
+MD5sum: 4afb3aa950dcb36c1cf0ecef54acd002
+SHA1: 23d1e32f6666b9f24bf7b4d1ddb87ad1d7841c29
+SHA256: a26ab83a29acdc0885af95b1e8228586df8ddd856998d59f36ab8c97071e774e
+Description: VPN App Service
+
+Package: gpio
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 12625
+Depends: libc6 (>= 2.28), libhidapi-libusb0 (>= 0.8.0~rc1+git20140201.3a66d4e+dfsg), libmica-gpio, swagger-ui
+Filename: pool/main/g/gpio/gpio_1.0.0-1_amd64.deb
+Size: 3835428
+MD5sum: f5b5263803abb72f7a0b4c49419db122
+SHA1: 53929aacceacc483f3dfba23de11b035d5d35605
+SHA256: 6361db2e2d1f2d06c1f0cc7c61e90215d9898dc4e6936623db9e1415b08cb922
+Description: MICA GPIO service
+
+Package: auth-dbgsym
+Source: auth
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 5065
+Depends: auth (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/a/auth/auth-dbgsym_1.0.0-1_amd64.deb
+Size: 4265032
+MD5sum: eb6b5d896f53d5cf4ffd8828e934a687
+SHA1: cef42d5b303bef321d67a207c889dad1c48354af
+SHA256: 25e81a974a0207c6b04f62bb7da132e2e78cac8a34be7a1035b2c674b3524adf
+Description: debug symbols for auth
+Build-Ids: dfe940fb4f62c8e1fc566fff04b2486c31cf9ec8
+
+Package: system
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 11900
+Depends: libc6 (>= 2.28)
+Filename: pool/main/s/system/system_1.0.0-1_amd64.deb
+Size: 3784256
+MD5sum: db3bb0c5d9cc491172e7facd98c169f9
+SHA1: 7df8679f21722598c01d2630b031d51a848c011e
+SHA256: c1b37b9059cdeeb90471410779649f7a53b9e1ea29a36b397fccf24dd01d6633
+Description: System web service
+
+Package: dropbear-scp
+Source: dropbear
+Version: 2018.76-5+menucha0
+Architecture: amd64
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Installed-Size: 80
+Depends: dropbear-bin (>= 2018.76-5+menucha0)
+Conflicts: openssh-client
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+Filename: pool/main/d/dropbear/dropbear-scp_2018.76-5+menucha0_amd64.deb
+Size: 44176
+MD5sum: adcbb7c60bb7a32cc16067fb21c1dc3f
+SHA1: 96c509eb44b2440226c008942452912e640091c0
+SHA256: 5f72850da08ae8aa8fd89546adc36505b077b88d5cc168c0518df22ce179ef6a
+Description: lightweight SSH2 server and client - scp
+
+Package: log
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 24537
+Depends: libc6 (>= 2.28)
+Filename: pool/main/l/log/log_1.0.0-1_amd64.deb
+Size: 7166472
+MD5sum: c14121208e6177914508b8d7ef971f2f
+SHA1: 481873ca9423461c64ce7d71752fa8f21ced4fd2
+SHA256: 29c94a9b88a4c7751e3115ee8acb16c64597bd71a9f457cef6b397153bd88e40
+Description: Log Service
+
+Package: art
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 23774
+Depends: libc6 (>= 2.28), swagger-ui
+Filename: pool/main/a/art/art_1.0.0-1_amd64.deb
+Size: 6749976
+MD5sum: 286d6cf81c466ac7bf3b455619da2d24
+SHA1: 30cfcc85b53a2c21b4bce861282c8423ee18c0a9
+SHA256: 131cf9db711a3ca46560ce03c22790c6e0cdbee2612731f55f5dad7b4f315fde
+Description: Applicationm runtime service
+
+Package: mqtt-dbgsym
+Source: mqtt
+Version: 1.0.1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 4986
+Depends: mqtt (= 1.0.1-1)
+Section: debug
+Priority: optional
+Filename: pool/main/m/mqtt/mqtt-dbgsym_1.0.1-1_amd64.deb
+Size: 4203676
+MD5sum: 10339c8fce292999c76afa62c4d043c1
+SHA1: b7e4f71be095b7aafcedd87c00fd6b03137dd4b3
+SHA256: 41702b62241648314198149a6ed72ad5aaae7bb7bfb7bf9c7530a884304be66e
+Description: debug symbols for mqtt
+Build-Ids: 007bb14d6e85c7df8412d987fd6f2f57030e8b90
+
+Package: mqtt
+Version: 1.0.1-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 12470
+Depends: libc6 (>= 2.28), mosquitto
+Filename: pool/main/m/mqtt/mqtt_1.0.1-1_amd64.deb
+Size: 3750572
+MD5sum: 5853d92286e71bf1d537e9b48edb968c
+SHA1: e2b152fb2c0636d7ae1ff252a433f130fcdfe061
+SHA256: 7c28cfd257c6a88fe623253fd4998654aaf5a35259ab5e1a332c9b1fe0f7ff49
+Description: MQTT broker
+
+Package: dropbear-bin
+Source: dropbear
+Version: 2018.76-5+menucha0
+Architecture: amd64
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Installed-Size: 445
+Depends: libc6 (>= 2.25), libtomcrypt1, libtommath1 (>= 1.1.0), zlib1g (>= 1:1.1.4)
+Suggests: openssh-client, xauth
+Breaks: dropbear (<< 2015.68-1)
+Replaces: dropbear (<< 2015.68-1)
+Provides: ssh-server
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+Filename: pool/main/d/dropbear/dropbear-bin_2018.76-5+menucha0_amd64.deb
+Size: 131324
+MD5sum: 9d5088a6d63383419afe7647a47ba6fd
+SHA1: 6c6adb8da334035da963154d3cc5249e5fb7814c
+SHA256: ee9f32c32cb2275a2683620f48f0ee15b160f3823f21df4a99275a27ccedb021
+Description: lightweight SSH2 server and client - command line tools
+ dropbear is a SSH 2 server and client designed to be small enough to
+ be used in small memory environments, while still being functional and
+ secure enough for general use.
+ .
+ It implements most required features of the SSH 2 protocol, and other
+ features such as X11 and authentication agent forwarding.
+ .
+ This package provides dropbear, dbclient, dropbearkey and dropbearconvert.
+
+Package: libmica-gpio-dbgsym
+Source: mica-gpio
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 18
+Depends: libmica-gpio (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/m/mica-gpio/libmica-gpio-dbgsym_1.0.0-1_amd64.deb
+Size: 3024
+MD5sum: 8078e38f9bca51703d10e9bd8e694243
+SHA1: 5ce6c9428d129c21e40fe463dcf7dabf841d088c
+SHA256: 9064b6d4fb9a6d8d02a82aaf56eb7c6fec558b75eb2bf703ef5c868eaa7dff3e
+Description: debug symbols for libmica-gpio
+Build-Ids: 2c1880d7e536f1bd4c07b6872fe61b3452fbc15c
+
+Package: gpio-dbgsym
+Source: gpio
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 5099
+Depends: gpio (= 1.0.0-1)
+Section: debug
+Priority: optional
+Filename: pool/main/g/gpio/gpio-dbgsym_1.0.0-1_amd64.deb
+Size: 4290076
+MD5sum: b8a952ae43869989b0e63e4a355d9d1d
+SHA1: d09ef94c1b7e048ad2e6b8bb26ae3aad83197622
+SHA256: 6e08784f7c6ab75831930edd2910762817806323a4ba231b76fc896fffc80458
+Description: debug symbols for gpio
+Build-Ids: 9a573d65c5851787a600fa13bf50e0df18d2d5d2
+
+Package: libjava-modbus
+Version: 2.7.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 1248
+Depends: libmodbus5
+Section: java
+Priority: optional
+Filename: pool/main/libj/libjava-modbus/libjava-modbus_2.7.0-1_amd64.deb
+Size: 418022
+MD5sum: f9f2fa2873aa1c115a3ae597ec7d1530
+SHA1: 8cd07762521e9b6bc99c26ab09dbaa810b5c7c01
+SHA256: 3d2fd0118461ab0f3e96230d6dae12360ec6dc7abbc2e68a1fcb2df2f399f6ae
+Description: Modbus JNI
+
+Package: auth
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Menucha Team <info@menucha.de>
+Installed-Size: 10601
+Depends: libc6 (>= 2.28)
+Filename: pool/main/a/auth/auth_1.0.0-1_amd64.deb
+Size: 3459116
+MD5sum: 34615bd76907e9f9443c7197146068cd
+SHA1: 31abe4c13bb6914bcf3a35dc99d78ff8705a1c92
+SHA256: 5ad2c4a710af4c5d09a2d55ba0d88a14b64c4b7960274d12ef2a527df61f31fd
+Description: Auth Service
+

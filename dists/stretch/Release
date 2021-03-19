@@ -1,0 +1,33 @@
+Architectures: amd64 armhf
+Codename: stretch
+Components: main
+Date: Fri, 19 Mar 2021 10:50:14 +0000
+Description: Apps
+Label: Menucha
+Origin: menucha
+Suite: stable
+Version: 1.0
+MD5Sum:
+ d34f76a7349270a47a569bf2dedc9871              176 Release
+ fdc54704acb4238a4134ca3b0056f5dd            16862 main/binary-amd64/Packages
+ 45776a47db1c93b452d150d3537619e6             5060 main/binary-amd64/Packages.xz
+ e7156620e0bcd9b61b538ccfe2f3457f            16861 main/binary-armhf/Packages
+ 07b99165394ff4df9ab9b5d49a337695             5040 main/binary-armhf/Packages.xz
+SHA1:
+ c9da4c45b6836dc4c900a6cc196d9f31af2ad960              176 Release
+ 5d44802dc9120f6c41c497d253efb10019a28f59            16862 main/binary-amd64/Packages
+ b2fa52229b00e043ab33cfa0178cc9d19bc42b6e             5060 main/binary-amd64/Packages.xz
+ 34a8266bcb0501a1086308a492561ef7328a89a2            16861 main/binary-armhf/Packages
+ d488fb41bfb3e0454084c409d372b17287791bba             5040 main/binary-armhf/Packages.xz
+SHA256:
+ f28639ad9a5eab08507897fb824649293aef3185fbe9afa9a5abb49be6320516              176 Release
+ 7826d219b071e30347f13ae44fafb5b4f2b3f7f2dc9b6623650e6688820c2856            16862 main/binary-amd64/Packages
+ 780b3a39a4fa2ce4bc037bded1728180f58d34344308b6f149448f8bb8d51ce8             5060 main/binary-amd64/Packages.xz
+ 468e6a99e3d4aa01cfbeef9f1f5822b436e025c22480adba74636f1482eca40d            16861 main/binary-armhf/Packages
+ 0a993343aad1ff839135f2cc84147ab612f53ff94e4862b933eb12c37579b49e             5040 main/binary-armhf/Packages.xz
+SHA512:
+ 53f8597a2ea990a9aa1a1ba86ed15aa28984ec480fe46fb23268aa8cfb8f44c36e388a9f9d8c9a780c20b13ad58b3643899e6a9cbf4963d16670dfc012b355ad              176 Release
+ d96f7b083aba49ac472e6e773e69ba66e593c4c55a067b00c93c45dabc7c03f6bc336f12f6d37425746616e6c3b1867951d8ee1caee4421b16b3112c7b952062            16862 main/binary-amd64/Packages
+ 8d282593a29ea44dbfdd692f206c348c6b6a58181035ad2a5d3c4ca243a823edca24751aac5500be034673cbd7ed60a486ee18c198b686ae8d63d6b302a42873             5060 main/binary-amd64/Packages.xz
+ 2eec8fc561bb4c10b8dec87a5a34d0c47c00673add256d9c2466ae7561179be75b5d25075683c304f64a87f3c57dffd01fa210781b28a3944420d73539f692b4            16861 main/binary-armhf/Packages
+ 8d8ff270df54f8e8ee37e86917706523492d7329bbe7a177d65a0977744f8d80313f92c8ead692f504a735795a6a0fba0e2e74fa9e75198820563f82877965b5             5040 main/binary-armhf/Packages.xz
